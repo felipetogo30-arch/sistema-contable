@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Tunga's</title>
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-b from-cyan-100 to-blue-200 min-h-screen font-sans">
+
+
+  <header class="bg-cyan-700 text-white shadow-lg">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex justify-between items-center">
+
+      <div>
+        <h1 class="text-4xl font-bold">The Tunga's</h1>
+        <p class="text-cyan-100">
+          Ayudando con atún a personas necesitadas en África
+        </p>
+      </div>
+
+      <nav class="flex gap-6 text-lg">
+        <a href="#nosotros" class="hover:text-yellow-300">Nosotros</a>
+        <a href="#ayuda" class="hover:text-yellow-300">Ayuda</a>
+        <a href="#donar" class="hover:text-yellow-300">Donar</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <section class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+
+    <div>
+      <h2 class="text-5xl font-bold leading-tight">
+        Un pequeño aporte puede alimentar muchas vidas
+      </h2>
+
+      <p class="mt-6 text-lg text-gray-700">
+        En The Tunga's buscamos ayudar a comunidades vulnerables en África
+        mediante donaciones voluntarias, merchandising y convenios.
+      </p>
+
+      <button class="mt-8 bg-cyan-700 hover:bg-cyan-800 text-white px-8 py-4 rounded-2xl text-lg shadow-lg transition">
+        Donar Ahora
+      </button>
+    </div>
+
+    <div>
+      <img
+        src="tunga.png"
+        class="rounded-3xl shadow-2xl"
+      >
+    </div>
+
+  </section>
+
+  <section id="nosotros" class="bg-white py-20">
+
+    <div class="max-w-6xl mx-auto px-6">
+
+      <h2 class="text-4xl font-bold text-center mb-14">
+        ¿Quiénes Somos?
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-cyan-50 p-8 rounded-3xl shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Nuestra Misión</h3>
+
+          <p>
+            Llevar apoyo alimenticio a comunidades vulnerables mediante campañas solidarias.
+          </p>
+        </div>
+
+        <div class="bg-cyan-50 p-8 rounded-3xl shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Cómo Nos Sostenemos</h3>
+
+          <p>
+            Gracias a merchandising, convenios y donaciones.
+          </p>
+        </div>
+
+        <div class="bg-cyan-50 p-8 rounded-3xl shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Nuestra Meta</h3>
+
+          <p>
+            Ayudar a miles de personas cada año.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="ayuda" class="py-20 bg-blue-50">
+
+    <div class="max-w-6xl mx-auto px-6 text-center">
+
+      <h2 class="text-4xl font-bold mb-6">
+        ¿Cómo Puedes Ayudar?
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-12">
+
+        <div class="bg-white p-8 rounded-3xl shadow-lg">
+          <div class="text-5xl">💰</div>
+
+          <h3 class="text-2xl font-bold mt-4">
+            Donaciones
+          </h3>
+
+          <p class="mt-4">
+            Aportes voluntarios para comprar alimentos.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl shadow-lg">
+          <div class="text-5xl">👕</div>
+
+          <h3 class="text-2xl font-bold mt-4">
+            Merchandising
+          </h3>
+
+          <p class="mt-4">
+            Poleras y accesorios solidarios.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl shadow-lg">
+          <div class="text-5xl">🤝</div>
+
+          <h3 class="text-2xl font-bold mt-4">
+            Convenios
+          </h3>
+
+          <p class="mt-4">
+            Empresas y organizaciones que apoyan la causa.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="donar" class="bg-cyan-700 text-white py-20">
+
+    <div class="max-w-3xl mx-auto px-6 text-center">
+
+      <h2 class="text-4xl font-bold mb-6">
+        Haz Tu Donación
+      </h2>
+
+      <div class="bg-white text-gray-900 p-10 rounded-3xl shadow-2xl">
+
+        <form class="grid gap-6">
+
+          <input
+            type="text"
+            placeholder="Tu nombre"
+            class="p-4 rounded-2xl border"
+          >
+
+          <input
+            type="email"
+            placeholder="Tu correo"
+            class="p-4 rounded-2xl border"
+          >
+
+          <input
+            type="number"
+            placeholder="Monto"
+            class="p-4 rounded-2xl border"
+          >
+
+          <textarea
+            placeholder="Mensaje"
+            rows="4"
+            class="p-4 rounded-2xl border"
+          ></textarea>
+
+          <button
+            class="bg-cyan-700 hover:bg-cyan-800 text-white py-4 rounded-2xl text-lg"
+          >
+            Enviar Donación
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
