@@ -1,2 +1,8 @@
 # sistema-contable
-Este es un Codigo de una Pagina web La cual su funcion es la "Pagina web de una empresa de atun la cual fue realizada en clases de programacion con el fin de poder ayudar a personas de africa que tengan poco acceso a atun".
+El proyecto trata de una pagina web de una empresa de atun que ayuda con donaciones voluntarias para financiar el proyecto de llevar atun a partes de africa que tengan poco acceso, esta pagina web es facil de utilzar ya que es una pagina la cual tiene 3 secciones divididas;1. quienes somos, 2. como nos financiamos, 3. como donar. lo cree yo (FELIPE NICOLÀS TORRES GODOY). Y SIRVE PARA DONAR.
+FELIPE NICOLÀS TORRES GODOY.
+4TOi
+Programacion.
+Empresa que transporta atun a africa
+Lenguajes de programacion que conozco;Pseint, Python, JAVA, JS, CSS, MYSQL, SQLite, HTML Y UNITY.
+Elegi programacion porque es algo q siempre me llamo la atencion ya que siempre fui bastante vinculado con internet y juegos, una vez me identre en el tema de programacion quede fascinado con las miles de cosas que se pueden lograr y es por eso que elegi programacion.
